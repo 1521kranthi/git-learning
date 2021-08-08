@@ -1,2 +1,2 @@
 ﻿#to get the liost of services
-Get-Service
+Get-Service | Where-Object Status -EQ Running
